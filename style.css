@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header{
+	font-family: Meiryo;
+}
+
+.header{
+	width:100%;
+	height:197px;
+	border-bottom: solid 1px #707070;
+	font-size: 30px;
+	text-align: right;
+}
+
+.logo{
+	float:left;
+	margin-top:27.1px;
+}
+
+.header li{
+	display: inline-block;
+	margin-top: 111px;
+	padding-right:30px;
+}
+.header a{
+	color: #707070;
+}
+
+.body{
+	width:100%;
+	padding-top: 197px; 
+}
+
+.concept{
+	color:#000000;
+	height: 883px;
+}
+
+.concept-text{
+	padding-top: 200px;
+	padding-left: 118px;
+
+}
+.concept h1{
+	font-size: 100px;
+	line-height: 1.2;
+	padding-top:70px;
+}
+.concept h3{
+	font-size:64px;
+	margin-bottom: 180px;
+}
+.concept p{
+	font-size: 32px;
+	background-color: #0071B2;
+	padding:15px 66px;
+	border-radius: 30px;
+	text-align: center;
+	width:390px;
+	margin:0 auto 20px auto;
+}
+.concept a{
+	color:#FFFFFF;
+}
+.contact{
+	border-bottom: solid 1px #707070;
+}
+
+.service-image1{
+	width: 830px;
+	height :670px;
+	background-image: url(img/service.png);
+}
+
+.service-image2{
+	width: 830px;
+	height :670px;
+	background-image: url(img/service2.png);
+}
+
+
