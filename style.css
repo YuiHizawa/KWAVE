@@ -56,7 +56,7 @@ a {
 .contact {
   position: fixed;
   bottom: 50px;
-  left: calc(50% - 50px / 2);
+  left: calc(50% - 180px / 2);
 }
 body {
   width: 100%;
@@ -177,7 +177,7 @@ body {
 }
 
 .news {
-  margin: 119px 0 50px 60px;
+  margin: 119px 0 90px 60px;
   padding-bottom: 50px;
   border-bottom: solid 1px #707070;
 }
@@ -212,4 +212,24 @@ body {
 
 .news-index a {
   color: white;
+}
+
+.logo2 {
+  vertical-align: middle;
+  margin-bottom: 70px;
+}
+
+footer {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.footer-link {
+  display: inline-block;
+  text-align: center;
+}
+.footer a {
+  color: #707070;
+  font-size: 16px;
 }
