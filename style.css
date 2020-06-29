@@ -229,6 +229,13 @@ footer {
   display: inline-block;
   text-align: center;
 }
-.footer a {
+.flex a {
   font-size: 16px;
+  color: #707070 !important;
+}
+
+.footer-company {
+  font-size: 16px;
+  color: #707070 !important;
+  margin: 90px 0 100px 0;
 }
