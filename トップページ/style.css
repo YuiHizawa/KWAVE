@@ -64,28 +64,44 @@ body {
 }
 
 .main {
-  width: 1024px;
+  width: 1280px;
   margin: 0 auto;
   color: #707070;
 }
 
-.concept {
-  color: #000000;
-  height: 883px;
+
+.en-concept{
+  height:580px;
+  padding:236px 288px 0 298px;
+  color:black;
+  text-align:center;
+}
+.en-concept h1{
+  font-size:55px;
+}
+
+.en-concept p{
+  font-size: 42px;
 }
 
 .concept {
-  padding-top: 161px;
-  padding-left: 63px;
+  color: #000000;
+  height: 837px;
+  padding-top: 158px;
+  padding-left: 283px;
+}
+
+.concept p{
+  font-size: 40px;
+  padding-left:220px;
+  margin-bottom:93px;
 }
 .concept h1 {
   font-size: 53px;
   line-height: 1.2;
+  margin-bottom:55px;
 }
-.concept h3 {
-  font-size: 34px;
-  margin-bottom: 180px;
-}
+
 
 .movie {
   height: 500px;
