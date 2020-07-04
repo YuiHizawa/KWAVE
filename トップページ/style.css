@@ -86,9 +86,9 @@ body {
 
 .concept {
   color: #000000;
-  height: 837px;
+  height: 532px;
   padding-top: 158px;
-  padding-left: 283px;
+  padding-left: 330px;
 }
 
 .concept p{
@@ -102,9 +102,23 @@ body {
   margin-bottom:55px;
 }
 
+.our-philosophy{
+  font-size: 40px;
+  padding: 11px 60px;
+  border-radius: 40px;
+  text-align: center;
+  width: 470px;
+  border: solid 1px #707070;
+  height: 75px;
+  margin:0 auto 230px auto;
+}
 
-.movie {
-  height: 500px;
+.our-philosophy p{
+  margin:0;
+}
+
+.our-philosophy a {
+  color: black;
 }
 
 .flex {
@@ -116,19 +130,19 @@ body {
 }
 
 .services {
-  margin: 0 85px;
+  margin: 0 65px;
 }
 
 .services-title {
-  font-size: 29px;
+  font-size: 40px;
   display: inline-block;
 }
 .services span {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .services-text {
-  font-size: 17px;
+  font-size: 23px;
 }
 
 .service {
@@ -137,24 +151,24 @@ body {
 
 .service-image1 {
   display: inline-block;
-  width: 421px;
-  height: 360px;
+  width: 566px;
+  height: 451px;
   background-image: url(img/service1.png);
   background-size: cover;
 }
 
 .service-text h3 {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .service-text p {
-  font-size: 17px;
+  font-size: 23px;
 }
 
 .service-image2 {
   display: inline-block;
-  width: 419px;
-  height: 360px;
+  width: 566px;
+  height: 451px;
   background-image: url(img/service1.png);
 }
 
@@ -162,33 +176,33 @@ body {
 }
 
 .development-cases {
-  margin: 119px 60px 0 60px;
+  margin: 119px 65px 0 65px;
 }
 
 .development-case {
-  margin-top: 57px;
+  margin-top: 66px;
 }
 
 .development-case {
-  width: 214px;
-  height: 478px;
+  width: 274px;
+  height: 585px;
   border: solid 1px #707070;
 }
 
 .development-case-image {
-  width: 192px;
-  height: 181px;
+  width: 246px;
+  height: 222px;
   border: solid 1px #707070;
   margin: 10px;
 }
 
 .development-case-text h3 {
-  font-size: 24px;
+  font-size: 30px;
   margin: 0 10px;
 }
 
 .development-case-text p {
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 10px;
 }
 
