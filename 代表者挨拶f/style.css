@@ -90,3 +90,19 @@ footer {
   color: #707070 !important;
   margin: 90px 0 100px 0;
 }
+
+.greeting {
+  text-align: center;
+}
+.greeting h2 {
+  font-size: 57px;
+  display: inline-block;
+  border-bottom: solid 1px black;
+  padding: 90px 0 35px 0;
+}
+
+.greeting p {
+  padding: 130px 0 165px 0;
+  font-size: 22px;
+  line-height: 1;
+}

@@ -63,6 +63,41 @@ body {
   padding-top: 121px;
 }
 
+.history {
+  width: 1135px;
+  text-align: center;
+  margin: 85px auto;
+}
+
+.history h2 {
+  font-size: 57px;
+  display: inline-block;
+  width: 228px;
+  border-bottom: solid;
+  border-width: 1px;
+  padding-bottom: 25px;
+}
+
+table {
+  width: 1135px;
+  font-size: 22px;
+  margin: 100px auto 130px auto;
+  text-align: left;
+}
+tr {
+  border-bottom: solid 1px #707070;
+}
+.left {
+  padding-left: 90px;
+  line-height: 30px;
+  padding: 30px 0 30px 90px;
+}
+
+.right {
+  line-height: 30px;
+  padding: 30px 256px 30px 100px;
+}
+
 .logo2 {
   vertical-align: middle;
   margin-bottom: 70px;
@@ -72,8 +107,8 @@ footer {
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  padding-top: 100px;
   border-top: solid 1px #707070;
+  padding-top: 100px;
 }
 
 .footer-link {
