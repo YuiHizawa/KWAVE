@@ -73,8 +73,8 @@ footer {
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  border-top: solid 1px #707070;
   padding-top: 100px;
+  border-top: solid 1px #707070;
 }
 
 .footer-link {
@@ -91,21 +91,65 @@ footer {
   color: #707070 !important;
   margin: 90px 0 100px 0;
 }
-.about {
+
+.main-img {
+  width: 100%;
+  margin: 0 auto;
+  border-style: none;
   text-align: center;
-  padding: 80px 0 190px 0;
-}
-.about h2 {
-  font-size: 57px;
-  border-bottom: solid 1px #000000;
-  display: inline-block;
-  margin-bottom: 110px;
 }
 
-.about h3 {
-  font-size: 67px;
+.service-title {
+  height: 212px;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: solid 1px #707070;
+  color: #707070;
 }
-.about p {
-  line-height: 2;
-  font-size: 24px;
+.service-title h2 {
+  margin-top: 75px;
+  font-size: 34px;
+  display: inline-block;
+}
+
+.service-title p {
+  font-size: 19px;
+  margin: 25px 0 45px 0;
+}
+
+.service-title span {
+  font-size: 18px;
+}
+
+.service-cards {
+  padding: 75px 0;
+}
+.service-cards1 {
+  border-bottom: solid 1px #707070;
+}
+
+.service-card {
+  width: 579px;
+  height: 700px;
+  border: solid 1px #707070;
+  color: #707070;
+}
+
+.service-card-img {
+  width: 577px;
+  height: 529px;
+}
+
+.service-card h3 {
+  font-size: 28px;
+  padding: 6px 0 6px 6px;
+}
+
+.service-card p {
+  font-size: 19px;
+  padding: 0 0 6px 6px;
+}
+
+.container {
+  max-width: 1280px;
 }
