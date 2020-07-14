@@ -95,8 +95,9 @@ footer {
 .main-img {
   width: 100%;
   margin: 0 auto;
-  border-style: none;
   text-align: center;
+  padding: 0;
+  height: 300px;
 }
 
 .service-title {
