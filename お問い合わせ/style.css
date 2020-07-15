@@ -90,3 +90,60 @@ footer {
   color: #707070 !important;
   margin: 90px 0 100px 0;
 }
+
+
+.form-img{
+  margin:0 auto;
+  width:1280px;
+  height:300px;
+  margin-bottom:55px;
+}
+
+.maxWidth {
+  max-width: 1280px;
+  padding: 0;
+}
+.text{
+  text-align: center;
+  width:899px;
+}
+
+.text p{
+  font-size: 25px;
+
+}
+
+.text h3{
+  font-size:30px;
+  height:67px;
+  border-bottom:solid 1px black;
+  margin-top:84px;
+  margin-bottom:38px;
+  display:inline-block;
+}
+
+.text-left{
+  text-align: left;
+  margin:84px 0 38px 70px;
+}
+
+.text-left2{
+  text-align: left;
+  margin:84px 0 116px 260px;
+
+}
+
+.form{
+  text-align: center;
+ 
+  margin:0;
+}
+
+.form h3{
+  font-size:30px;
+  height:67px;
+  border-bottom:solid 1px black;
+  margin-top:84px;
+  margin-bottom:38px;
+  display:inline-block;
+}
