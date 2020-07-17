@@ -54,10 +54,10 @@ a {
   color: #ffffff;
 }
 .contact {
-  z-index: 999;
   position: fixed;
   bottom: 50px;
   left: calc(50% - 180px / 2);
+  z-index: 999;
 }
 body {
   width: 100%;
@@ -92,72 +92,77 @@ footer {
   margin: 90px 0 100px 0;
 }
 
-.main-img {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
+
+
+.form-img{
+  margin:0 auto;
+  width:1280px;
+  height:300px;
+  margin-bottom:55px;
+}
+
+.maxWidth {
+  max-width: 1280px;
   padding: 0;
-  height: 300px;
 }
 
-.service-title {
-  height: 212px;
-  margin: 0 auto;
-  text-align: center;
-  border-bottom: solid 1px #707070;
-  color: #707070;
-}
-.service-title h2 {
-  margin-top: 75px;
-  font-size: 34px;
-  display: inline-block;
+.blog-img{
+  height:280px;
+  border:solid 1px #707070;
 }
 
-.service-title p {
-  font-size: 19px;
-  margin: 25px 0 45px 0;
-}
-
-.service-title span {
+.blog-text{
   font-size: 18px;
 }
 
-.service-cards {
-  padding: 75px 0;
-}
-.service-cards1 {
-  border-bottom: solid 1px #707070;
+.inline-block{
+  display:inline-block;
+  margin-top:10px;
 }
 
-.service-card {
-  width: 579px;
-  height: 700px;
-  border: solid 1px #707070;
-  color: #707070;
+.category{
+  margin-left:220px;
+  border-radius: 30px;
+  color:#0098C9;
+  border:solid 1px #0098C9;
 }
 
-.service-card h3{
-  color:#707070;
+.blogs{
+  margin-bottom:79px;
 }
 
-.service-card p{
-  color:#707070;
-}
-.service-card-img {
-  width: 577px;
-  height: 529px;
+
+.next-back-btn {
+  text-align: center;
+  display: inline-block;
+  margin: 107px auto 180px auto;
 }
 
-.service-card h3 {
-  font-size: 28px;
-  padding: 6px 0 6px 6px;
+.next-back-btn p {
+  display: inline-block;
+  font-size: 40px;
+  background-color: #0071b2;
+  padding: 6.5px 35px;
+  border-radius: 40px;
+  text-align: center;
+  width: 220px;
+  height: 70px;
 }
 
-.service-card p {
-  font-size: 19px;
-  padding: 0 0 6px 6px;
+.next-back-btn a {
+  color: white;
+  padding-bottom: 5px;
+}
+.back-btn {
+  margin-right: 45px;
 }
 
-.container {
-  max-width: 1280px;
+.next-btn {
+  margin-left: 45px;
 }
+
+.col-lg-12 img {
+  padding: 0;
+}
+
+

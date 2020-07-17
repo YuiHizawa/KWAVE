@@ -43,18 +43,19 @@ a {
 }
 
 .contact p {
+  z-index: 90000;
   font-size: 17px;
   background-color: #0071b2;
   padding: 12.5px 35px;
   border-radius: 30px;
   text-align: center;
   width: 208px;
+  opacity: 1;
 }
 .contact a {
   color: #ffffff;
 }
 .contact {
-  z-index: 999;
   position: fixed;
   bottom: 50px;
   left: calc(50% - 180px / 2);
@@ -91,73 +92,93 @@ footer {
   color: #707070 !important;
   margin: 90px 0 100px 0;
 }
-
+.main {
+  color: #707070;
+}
 .main-img {
-  width: 100%;
-  margin: 0 auto;
+  width: 1280px;
   text-align: center;
-  padding: 0;
-  height: 300px;
-}
-
-.service-title {
-  height: 212px;
   margin: 0 auto;
-  text-align: center;
-  border-bottom: solid 1px #707070;
-  color: #707070;
 }
-.service-title h2 {
-  margin-top: 75px;
-  font-size: 34px;
-  display: inline-block;
+.news-article-img {
+  height: 129px;
+  border: 0;
+  margin: 15px;
 }
 
-.service-title p {
-  font-size: 19px;
-  margin: 25px 0 45px 0;
-}
-
-.service-title span {
-  font-size: 18px;
-}
-
-.service-cards {
-  padding: 75px 0;
-}
-.service-cards1 {
-  border-bottom: solid 1px #707070;
-}
-
-.service-card {
-  width: 579px;
-  height: 700px;
+.news-cards {
   border: solid 1px #707070;
-  color: #707070;
 }
 
-.service-card h3{
-  color:#707070;
+.news-block {
+  padding: 10px;
+  border-top: double 3px #707070; /* 二重線の上の線になる一本線をひく */
+  margin-bottom: 2px; /* 二重線の下の線の位置を確保する */
+  position: relative; /* 外側の線の位置を調整する時の基準点になるようにする    */
 }
 
-.service-card p{
-  color:#707070;
-}
-.service-card-img {
-  width: 577px;
-  height: 529px;
+.news-blocks {
+  margin: 50px 0 0 0;
 }
 
-.service-card h3 {
-  font-size: 28px;
-  padding: 6px 0 6px 6px;
+.next-back-btn {
+  text-align: center;
+  display: inline-block;
+  margin: 107px auto 180px auto;
 }
 
-.service-card p {
-  font-size: 19px;
-  padding: 0 0 6px 6px;
+.next-back-btn p {
+  display: inline-block;
+  font-size: 40px;
+  background-color: #0071b2;
+  padding: 6.5px 35px;
+  border-radius: 40px;
+  text-align: center;
+  width: 220px;
+  height: 70px;
 }
 
-.container {
+.next-back-btn a {
+  color: white;
+  padding-bottom: 5px;
+}
+.back-btn {
+  margin-right: 45px;
+}
+
+.next-btn {
+  margin-left: 45px;
+}
+
+.col-lg-12 img {
+  padding: 0;
+}
+
+.maxWidth {
   max-width: 1280px;
+  padding: 0;
 }
+
+.news-serch {
+  border: solid 1px #707070;
+  width: 345px;
+}
+
+.news-serch p {
+  border-bottom: solid 1px #707070;
+  width: 294px;
+  display: inline-block;
+  padding: 20px 0px 4px 0px;
+  margin: 0 20px;
+  font-size: 19px;
+}
+
+.news-serch p:last-child {
+  border: none;
+}
+
+.text a{
+  color:#707070;
+}
+
+
