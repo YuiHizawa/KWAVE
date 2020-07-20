@@ -100,7 +100,7 @@ footer {
 
 .maxWidth {
   max-width: 1280px;
-  padding: 0;
+  
 }
 
 .blog-img{
@@ -270,8 +270,9 @@ footer {
   border-bottom:solid 1px #707070;
 }
 .blog-img{
-  height:170px;
+  
   margin:20px 0;
+  height:170px;
 }
 .blog-text{
   font-size: 10px;
@@ -328,11 +329,13 @@ footer {
 }
 .popular-blog{
   padding:0 15px;
+  margin-right:0;
 }
 
 .popular-img{
-  height:108px;
   padding:0;
+  background-position: 50% 50%;
+  background-size: 145% auto;
 }
 
 .popular-text{
@@ -344,6 +347,11 @@ footer {
 
 .popular{
   margin:15px;
+}
+
+.popular-blogs{
+  padding:0 auto;
+  margin:0 auto;
 }
 
 }
