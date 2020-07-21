@@ -75,6 +75,15 @@ html {
 }
 
 .header {
+  font-family: Meiryo;
+  z-index: 2;
+}
+
+.main{
+  z-index: 1;
+}
+
+.header {
   width: 100%;
   height: 121px;
   border-bottom: solid 1px #707070;
@@ -87,6 +96,7 @@ html {
   float: left;
   height: 76.67px;
   margin-top: 16.6px;
+  padding-left:5px;
 }
 
 .header li {
@@ -94,10 +104,28 @@ html {
   margin-top: 40px;/*ヘッダー*/
   padding-right: 19px;
 }
+
+.header nav ul li img{
+  display: none;
+}
 .header a {
   color: #707070;
 }
 
+.header nav.active{
+  left: 0;
+}
+.type1-menu li a.active,
+.type1-menu li a:hover{
+  color:black;
+  text-decoration: none;
+}
+
+.menu-toggle{
+  font-size:24px;
+  cursor: pointer;
+  display: none;
+}
 .contact p {
   font-size: 17px;
   background-color: #0071b2;
@@ -266,7 +294,7 @@ body {
 .news {
   margin: 119px 60px 90px 60px;
   padding-bottom: 50px;
-  border-bottom: solid 1px #707070;
+
 }
 
 .news span {
@@ -313,7 +341,7 @@ body {
 .logo2 {
   width: 193px;
   vertical-align: middle;
-  margin-bottom: 70px;
+  margin:20px 0 70px 0;
 }
 
 footer {
@@ -336,7 +364,8 @@ footer {
   margin: 90px 0 100px 0;
 }
 
-nav ul {
+/*ヘッダーレイアウトの邪魔のため*/
+/*nav ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -351,7 +380,7 @@ nav ul li a {
   padding: 10px;
   color: #000000;
   text-decoration: none;
-}
+}*/
 
 .type1 .type1-menu a {
   position: relative;
@@ -383,11 +412,259 @@ nav ul li a {
 }
 
 
-@media screen and (max-width: 1280px) {
+@media (max-width: 1279px){
+html {
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  height: 55px;
+  font-size: 15px;
+  text-align: left;
+}
+.logo {
+  float: left;
+  height: 33px;
+  margin-top: 16.6px;
+}
+.menu-toggle{
+  display: block;
+  float:right;
+  padding:10px 10px;
+}
+
+
+.header nav{
+  position:absolute;
+  width:100%;
+  height: calc(100vh - 50px);
+  top:53px;
+  left:-100%;
+  transition: 0.5s;
+}
+
+.header nav ul li{
+  display:block;
+  text-align: left;
+  border-bottom: solid 2px #707070;
+  padding:20px 0 20px 25px;
+  margin:0;
+}
+
+.header nav ul li img{
+  float:right;
+  display: inline-block;
+}
+.header nav ul{
+  border-right: solid 1px #707070;
+  border-top: solid 1px #707070;
+  border-bottom: solid 1px #707070;
+  background:white;
+}
+
+
+.main{
+  width:320px;
+}
+
+.en-concept {
+  height: 280px;
+  margin: 0 auto;
+  padding-top: 136px;
+  color: black;
+  text-align: center;
+}
+
+.en-concept h1 {
+  font-size: 18px;
+}
+
+.en-concept p {
+  font-size: 12px;
+}
+
+
+.concept {
+  color: #000000;
+  height: 120px;
+  padding: 58px auto 0 auto;
+}
+
+.concept p {
+  font-size: 15px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.concept h1 {
+  font-size: 15px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.our-philosophy {
+  font-size: 13px;
+  padding: 4px 0px;
+  border-radius: 40px;
+  text-align: center;
+  width: 204px;
+  border: solid 1px #707070;
+  height: 26px;
+  margin: 0 auto 100px auto;
+}
+
+
+.flex{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.services-title {
+  font-size: 15px;
+  display: inline-block;
+}
+
+.flex {
+  justify-content: center;
+  align-items: center;
+
+}
+.services span {
+  font-size: 8px;
+}
+
+.services{
+  margin:0;
+}
+
+
+.services-text {
+  font-size: 8px;
+}
+
+.service {
+  border: solid 1px #707070;
+  width: 311px;
+  margin-bottom:10px;
 
 }
 
+.service-image1 {
+  display: inline-block;
+  width: 309px;
+  height: 215px;
+  background-image: url(img/service1.png);
+  background-size: cover;
 }
+
+.service-text h3 {
+  font-size: 13px;
+}
+
+.service-text p {
+  font-size: 10px;
+}
+
+.service-image2 {
+  display: inline-block;
+  width: 307px;
+  height: 215px;
+  background-image: url(img/service1.png);
+}
+
+.services-title{
+  font-size:15px;
+  margin:0;
+}
+
+.development-cases span{
+  font-size:8px;
+}
+
+.development-cases{
+  margin: 40px 0 0 0;
+}
+.development-case{
+  margin-top:20px;
+  width:307px;
+  height:400px;
+}
+.development-case-image{
+  width:307px;
+  margin:0;
+}
+.development-case-text h3{
+  font-size:15px;
+}
+.development-case-text p{
+  font-size:15px;
+}
+
+.news{
+  margin:0px;
+}
+
+.news h3{
+  font-size:15px;
+  margin-top:50px;
+}
+
+.news span{
+  font-size: 8px;
+}
+
+.news_boxes{
+  margin-top:20px;
+}
+.news_box a{
+  font-size:10px;
+}
+.news_box{
+  padding:0px;
+  line-height: 1;
+  height:56px;
+}
+
+.news_boxes p:nth-child(odd){
+  padding:0;
+}
+.news_boxes p:nth-child(even){
+  padding:0;
+}
+
+.news-index p {
+    font-size: 10px;
+    background-color: #0071b2;
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
+    width: 150px;
+    margin: 20px auto 0 auto;
+}
+
+.logo2 {
+    width: 86px;
+    vertical-align: middle;
+    margin-bottom: 35px;
+}
+.flex a {
+    font-size: 8px;
+    color: #707070 !important;
+}
+
+.footer-company{
+  font-size:10px;
+  margin:40px 0;
+}
+
+footer{
+  border-top:solid 1px #707070;
+}
+
+}
+
 
 
 
