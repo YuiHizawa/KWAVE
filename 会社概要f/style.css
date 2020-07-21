@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: black;
 }
 
 a {
@@ -124,4 +125,25 @@ footer {
   font-size: 16px;
   color: #707070 !important;
   margin: 90px 0 100px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .history {
+    width: 100%;
+  }
+  .history h2 {
+    font-size: 15px;
+  }
+  .table1 {
+    font-size: 10px;
+    width: 80%;
+    padding: 0 auto;
+  }
+
+  .left {
+    padding: 0 0 0 5%;
+  }
+  .right {
+    padding: 0 0 0 10%;
+  }
 }
