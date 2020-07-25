@@ -17,7 +17,7 @@ a {
 }
 
 html {
-  width: 1280px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -74,8 +74,64 @@ html {
   display: none;
 }
 
-@media (max-width: 768px){
-.header {
+.news-show{
+  margin:200px auto;
+  width:90%;
+  color:#707070;
+}
+
+.news-img{
+  height: calc(100vw / 2);
+  border:solid 1px #707070;
+}
+.date{
+  font-size:25px;
+}
+
+.news-show h2{
+  font-size:35px;
+  margin:50px 0;
+}
+
+.text{
+  font-size:30px;
+}
+
+.logo2 {
+  vertical-align: middle;
+  margin-bottom: 70px;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  border-top: solid 1px #707070;
+  padding-top: 100px;
+}
+
+.footer-link {
+  display: inline-block;
+  text-align: center;
+}
+.flex a {
+  font-size: 16px;
+  color: #707070 !important;
+}
+
+.flex a:hover{
+  color:black !important;
+  text-decoration: none;
+}
+
+.footer-company {
+  font-size: 16px;
+  color: #707070 !important;
+  margin: 90px 0 100px 0;
+}
+
+@media (max-width: 767px){
+  .header {
   height: 55px;
   font-size: 15px;
   text-align: left;
@@ -135,42 +191,36 @@ html {
   margin:40px 0;
 }
 
+
 footer{
   border-top:solid 1px #707070;
 }
-
-
-
-}
-
-/*オプション*/
-/*拡大する*/
-.type1-menu li{
-  transition: all 0.1s ease 0.0s;
-}
-.type1-menu li:hover{
-  cursor: pointer;
-  transform: scale(1.1, 1.1);
-}
-/*回転する*/
-.our-philosophy {
-  font-size: 40px;
-  padding: 11px 60px;
-  border-radius: 40px;
-  text-align: center;
-  width: 470px;
-  border: solid 1px #707070;
-  height: 75px;
-  margin: 0 auto 230px auto;
+.news-show{
+  margin:100px auto;
+  width:90%;
   color:#707070;
-  transition: all 1s linear 0s;
-  cursor: pointer;
 }
 
-.our-philosophy:hover {
-  text-decoration: none;
-  transform: rotateX(360deg);
+.news-img{
+  width:100%;
+ 
+  border:solid 1px #707070;
+}
+.date{
+  font-size:15px;
 }
 
+.news-show h2{
+  font-size:20px;
+  margin:35px 0;
+}
+
+.text{
+  font-size:15px;
+}
+
+
+
+}
 
 
