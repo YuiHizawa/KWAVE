@@ -22,6 +22,13 @@ a {
 .main{
   z-index: 1;
 }
+.type1-menu li{
+  transition: all 0.1s ease 0.0s;
+}
+.type1-menu li:hover{
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
 
 .header {
   width: 100%;
@@ -73,9 +80,18 @@ a {
   border-radius: 30px;
   text-align: center;
   width: 208px;
+  transition: all 0.1s ease 0.0s;
+}
+.contact p:hover{
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
 }
 .contact a {
   color: #ffffff;
+}
+.contact a:hover{
+  color:#ffffff;
+  text-decoration: none;
 }
 .contact {
   position: fixed;
@@ -220,6 +236,10 @@ footer {
   color         : #0098c9;     /* 背景色     */
   background    : #ffffff;     /* 文字色     */
 }
+.flex a:hover{
+  text-decoration:none;
+  color:black !important;
+}
 
 
 
@@ -279,6 +299,7 @@ footer {
     font-size: 8px;
     color: #707070 !important;
 }
+
 
 .footer-company{
   font-size:10px;

@@ -18,9 +18,13 @@ a {
   font-family: Meiryo;
 }
 
-.main{
-  z-index: 1;
+
+.logo {
+  float: left;
+  height: 76.67px;
+  margin-top: 16.6px;
 }
+
 
 .header {
   width: 100%;
@@ -66,6 +70,8 @@ a {
   display: none;
 }
 
+
+
 .contact p {
   font-size: 17px;
   background-color: #0071b2;
@@ -87,41 +93,6 @@ body {
   padding-top: 121px;
 }
 
-.history {
-  width: 90%;
-  text-align: center;
-  margin: 85px auto;
-}
-
-.history h2 {
-  font-size: 57px;
-  display: inline-block;
-  width: 228px;
-  border-bottom: solid;
-  border-width: 1px;
-  padding-bottom: 25px;
-}
-
-table {
-  width: 90%;
-  font-size: 22px;
-  margin: 100px auto 130px auto;
-  text-align: left;
-}
-tr {
-  border-bottom: solid 1px #707070;
-}
-.left {
-  padding-left: 90px;
-  line-height: 30px;
-  padding: 45px 0 45px 80px;
-}
-
-.right {
-  line-height: 30px;
-  padding: 45px 0px 45px 100px;
-}
-
 .logo2 {
   vertical-align: middle;
   margin-bottom: 70px;
@@ -131,8 +102,8 @@ footer {
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  border-top: solid 1px #707070;
   padding-top: 100px;
+  border-top: solid 1px #707070;
 }
 
 .footer-link {
@@ -143,6 +114,10 @@ footer {
   font-size: 16px;
   color: #707070 !important;
 }
+.flex a:hover {
+  color: black !important;
+  text-decoration:none;
+}
 
 .footer-company {
   font-size: 16px;
@@ -150,9 +125,26 @@ footer {
   margin: 90px 0 100px 0;
 }
 
+.greeting {
+  text-align: center;
+}
+.greeting h2 {
+  font-size: 57px;
+  display: inline-block;
+  border-bottom: solid 1px black;
+  padding: 90px 0 35px 0;
+}
+
+.greeting p {
+  padding: 130px 0 165px 0;
+  font-size: 22px;
+  line-height: 1;
+}
+
+
 
 @media (max-width: 768px){
-  .header {
+.header {
   height: 55px;
   font-size: 15px;
   text-align: left;
@@ -214,57 +206,9 @@ footer {
 
 footer{
   border-top:solid 1px #707070;
-  padding-top:50px;
-}
-body{
-  padding-top: 55px;
-
-}
-
-.history {
-  width: 90%;
-  text-align: center;
-  margin: 30px auto;
-}
-
-.history h2 {
-  font-size: 15px;
-  display: inline-block;
-  width: 60px;
-  border-bottom: solid;
-  border-width: 1px;
-  padding-bottom: 10px;
-}
-
-table {
-  width: 90%;
-  font-size: 8px;
-  margin: 40px auto 65px auto;
-  text-align: left;
-}
-tr {
-  border-bottom: solid 1px #707070;
-}
-.left {
-  padding-left: 10px;
-  line-height: 15px;
-  padding: 10px 0 10px 10px;
-  font-size:8px !important;
-}
-
-.right {
-  line-height: 10px;
-  padding: 10px 0px 10px 10px;
-  font-size:8px !important;
-}
-
-.logo2 {
-  vertical-align: middle;
-  margin-bottom: 30px;
 }
 
 
 
-
-
 }
+
