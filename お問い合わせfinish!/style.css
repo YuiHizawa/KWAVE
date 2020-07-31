@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  font-family: Meiryo;
+  z-index: 2;
+}
+
+.main{
+  z-index: 1;
+}
+.type1-menu li{
+  transition: all 0.1s ease 0.0s;
+}
+.type1-menu li:hover{
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+
+.header {
+  width: 100%;
+  height: 121px;
+  border-bottom: solid 1px #707070;
+  font-size: 16px;
+  text-align: right;
+  background-color: #ffffff;
+}
+
+.logo {
+  float: left;
+  height: 76.67px;
+  margin-top: 16.6px;
+  padding-left:5px;
+}
+
+.header li {
+  display: inline-block;
+  margin-top: 40px;/*ヘッダー*/
+  padding-right: 19px;
+}
+
+.header nav ul li img{
+  display: none;
+}
+.header a {
+  color: #707070;
+}
+
+.header nav.active{
+  left: 0;
+}
+.type1-menu li a.active,
+.type1-menu li a:hover{
+  color:black;
+  text-decoration: none;
+}
+
+.menu-toggle{
+  font-size:24px;
+  cursor: pointer;
+  display: none;
+}
+.contact p {
+  font-size: 17px;
+  background-color: #0071b2;
+  padding: 12.5px 35px;
+  border-radius: 30px;
+  text-align: center;
+  width: 208px;
+  transition: all 0.1s ease 0.0s;
+}
+.contact p:hover{
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+.contact a {
+  color: #ffffff;
+}
+.contact a:hover{
+  color:#ffffff;
+  text-decoration: none;
+}
+.contact {
+  position: fixed;
+  bottom: 50px;
+  left: calc(50% - 240px / 2);
+}
+body {
+  width: 100%;
+  padding-top: 121px;
+}
+
+.logo2 {
+  vertical-align: middle;
+  margin-bottom: 70px;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  border-top: solid 1px #707070;
+}
+
+.footer-link {
+  display: inline-block;
+  text-align: center;
+}
+.flex a {
+  font-size: 16px;
+  color: #707070 !important;
+}
+
+.footer-company {
+  font-size: 16px;
+  color: #707070 !important;
+  margin: 90px 0 100px 0;
+}
+
+
+
+.form-img img{
+  width:100%;
+  margin-bottom:55px;
+}
+
+.maxWidth {
+  max-width: 1280px;
+  padding: 0;
+}
+.text{
+  text-align: center;
+  width:899px;
+}
+
+.text p{
+  font-size: 25px;
+
+}
+
+.text h3{
+  font-size:30px;
+  height:67px;
+  border-bottom:solid 1px black;
+  margin-top:84px;
+  margin-bottom:38px;
+  display:inline-block;
+}
+
+.text-left{
+  text-align: left;
+  margin:84px 0 38px 140px;
+}
+
+.text-left2{
+  text-align: left;
+  margin:84px 0 116px 260px;
+
+}
+
+.name{
+  padding-left:30px;
+}
+
+.form{
+  text-align: center;
+  margin:0 auto;
+}
+
+.form h3{
+  font-size:30px;
+  height:67px;
+  border-bottom:solid 1px black;
+  margin-top:84px;
+  margin-bottom:38px;
+  display:inline-block;
+}
+
+.blue-btn{
+  background-color:#0098C9;
+  border-radius: 30px;
+  color:white;
+  font-size:20px;
+  height:35px;
+  width:89px;
+
+}
+
+.blue-btn p{
+  margin-left:23px;
+  margin-top: 3px;
+}
+
+.kome{
+  color:red;
+  font-size:24px;
+}
+.kome p{
+  margin-left: 20px;
+}
+.submit{
+  background-color:#0098C9;
+  border-radius: 30px;
+  color:white;
+}
+
+.button {
+  width:335px;
+  display       : inline-block;
+  font-size     : 17pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #0098c9;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #0098c9;    /* 枠の指定 */
+  border-radius: 30px;
+  margin-bottom: 100px;
+  margin-left:40px;
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #0098c9;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+.flex a:hover{
+  text-decoration:none;
+  color:black !important;
+}
+.text{
+  text-align: center;
+  margin:0 auto;
+}
+
+
+
+
+@media (max-width: 768px){
+  .header {
+  height: 55px;
+  font-size: 15px;
+  text-align: left;
+}
+.logo {
+  float: left;
+  height: 33px;
+  margin-top: 16.6px;
+}
+.menu-toggle{
+  display: block;
+  float:right;
+  padding:10px 10px;
+}
+
+
+.header nav{
+  position:absolute;
+  width:100%;
+  height: calc(100vh - 50px);
+  top:53px;
+  left:-100%;
+  transition: 0.5s;
+}
+
+.header nav ul li{
+  display:block;
+  text-align: left;
+  border-bottom: solid 2px #707070;
+  padding:20px 0 20px 25px;
+  margin:0;
+}
+
+.header nav ul li img{
+  float:right;
+  display: inline-block;
+}
+.header nav ul{
+  border-right: solid 1px #707070;
+  border-top: solid 1px #707070;
+  border-bottom: solid 1px #707070;
+  background:white;
+}
+
+.logo2 {
+    width: 86px;
+    vertical-align: middle;
+    margin-bottom: 35px;
+}
+.flex a {
+    font-size: 10px;
+    color: #707070 !important;
+}
+
+
+.footer-company{
+  font-size:10px;
+  margin:40px 0;
+}
+
+footer{
+  border-top:solid 1px #707070;
+}
+
+
+.text p{
+  font-size: 10px;
+
+}
+
+.text h3{
+  font-size:10px;
+  height:27px;
+  border-bottom:solid 1px black;
+  margin-top:34px;
+  margin-bottom:18px;
+  display:inline-block;
+}
+
+.text-left{
+  text-align: center;
+  margin:0;
+  margin-left: 40px;
+}
+
+body{
+  padding-top:55px;
+}
+.text-left2 {
+    text-align: center;
+    margin:0;
+}
+.text{
+  width:320px;
+}
+
+.form h3{
+  font-size:10px;
+  margin-top:30px;
+  margin-bottom:10px;
+  height:30px;
+}
+
+
+.blue-btn{
+  background-color:#0098C9;
+  border-radius: 30px;
+  color:white;
+  font-size:10px;
+  height:18px;
+  width:48px;
+  margin:12px;
+}
+.blue-btn p{
+  padding:2px 12px;
+  margin:0;
+}
+
+.name{
+  font-size:12px !important;
+  padding:px;
+}
+
+.form-control{
+}
+.kome {
+    font-size: 10px;
+}
+.kome p{
+  margin-left:20px;
+}
+.button{
+  font-size:12px;
+  width:60px;
+  height:25px;
+  margin:0;
+  padding:0;
+
+}
+.btn{
+  text-align: center;
+  margin-bottom:50px;
+}
+.contact p {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  width: 140px;
+}
+.contact {
+  position: fixed;
+  bottom: 50px;
+  left: calc(50% - 140px / 2);
+}
+form{
+
+}
+html{
+  width:100%;
+}
+
+
+}
