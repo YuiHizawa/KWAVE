@@ -16,15 +16,12 @@ a {
 
 .header {
   font-family: Meiryo;
+  z-index: 2;
 }
 
-
-.logo {
-  float: left;
-  height: 76.67px;
-  margin-top: 16.6px;
+.main{
+  z-index: 1;
 }
-
 
 .header {
   width: 100%;
@@ -69,8 +66,6 @@ a {
   cursor: pointer;
   display: none;
 }
-
-
 
 .contact p {
   font-size: 17px;
@@ -140,6 +135,13 @@ footer {
   font-size: 22px;
   line-height: 1;
 }
+.type1-menu li{
+  transition: all 0.1s ease 0.0s;
+}
+.type1-menu li:hover{
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
 
 
 
@@ -206,6 +208,19 @@ footer {
 
 footer{
   border-top:solid 1px #707070;
+}
+.greeting h2{
+  font-size:14px;
+  padding-top:50px;
+  padding-bottom:15px;
+}
+.greeting p{
+  font-size:10px;
+  padding-top:30px;
+  padding-bottom:80px;
+}
+body{
+  padding-top:55px;
 }
 
 
