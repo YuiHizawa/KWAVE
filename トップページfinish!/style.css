@@ -87,7 +87,7 @@ html {
   width: 100%;
   height: 121px;
   border-bottom: solid 1px #707070;
-  font-size: 16px;
+  font-size: 18px;
   text-align: right;
   background-color: #ffffff;
 }
@@ -155,8 +155,8 @@ html {
 }
 .contact {
   position: fixed;
-  bottom: 50px;
-  left: calc(50% - 180px / 2);
+  bottom: 20px;
+  left: calc(50% - 200px / 2);
 }
 body {
   width: 100%;
@@ -188,14 +188,13 @@ body {
 
 .concept {
   color: #707070;
-  height: 532px;
+
   padding: 158px auto 0 auto;
 }
 
 .concept p {
-  font-size: 40px;
-  margin: 50px auto;
-  padding-bottom: 93px;
+  font-size: 44px;
+  margin: 70px auto 50px auto;
   text-align: center;
 }
 .concept h1 {
@@ -213,7 +212,7 @@ body {
   width: 470px;
   border: solid 1px #707070;
   height: 75px;
-  margin: 0 auto 230px auto;
+  margin: 0 auto 180px auto;
   color:#707070;
   transition: all 1s linear 0s;
   cursor: pointer;
@@ -298,7 +297,7 @@ body {
 }
 
 .development-case {
-  margin-top: 66px;
+  margin-top: 0px;
 }
 
 .development-case {
@@ -363,7 +362,7 @@ body {
 }
 
 .news_boxes {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .news-index p {
@@ -502,9 +501,9 @@ html {
 }
 
 .en-concept {
-  height: 280px;
+  height: 200px;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 40px;
   color: black;
   text-align: center;
 }
@@ -695,6 +694,31 @@ html {
 
 footer{
   border-top:solid 1px #707070;
+}
+.contact p {
+  font-size: 12px;
+  background-color: #0071b2;
+  padding: 5px 15px;
+  border-radius: 30px;
+  text-align: center;
+  width: 150px;
+  transition: all 0.1s ease 0.0s;
+}
+.contact p:hover{
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+.contact a {
+  color: #ffffff;
+}
+.contact a:hover {
+  color: #ffffff;
+  text-decoration:none;
+}
+.contact {
+  position: fixed;
+  bottom: -10px;
+  left: calc(50% - 140px / 2);
 }
 
 }

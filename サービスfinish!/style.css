@@ -27,7 +27,7 @@ a {
   width: 100%;
   height: 121px;
   border-bottom: solid 1px #707070;
-  font-size: 16px;
+  font-size: 18px;
   text-align: right;
   background-color: #ffffff;
 }
@@ -105,7 +105,7 @@ a {
 .contact {
   z-index: 999;
   position: fixed;
-  bottom: 50px;
+  bottom: 20px;
   left: calc(50% - 180px / 2);
 }
 body {
@@ -272,7 +272,7 @@ footer {
 
 .footer-company{
   font-size:10px;
-  margin:40px 0;
+  margin:40px 0 20px 0;
 }
 
 footer{
