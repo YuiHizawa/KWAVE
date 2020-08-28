@@ -183,6 +183,9 @@ html {
   margin-top: 40px; /*ヘッダー*/
   padding-right: 10px;
 }
+.type1-menu-li-last{
+  padding-right:20px !important;
+}
 
 .header nav ul li img {
   display: none;
@@ -249,25 +252,26 @@ body {
 }
 .slide{
   margin-top:50px;
-  width:768px;
+  width:100%;
   margin:50px auto;
   position:relative;
+  display: flex;
+  justify-content: center;
+
 }
 
 .en-concept {
   z-index: 100;
   position:absolute;
-  top:-15%;
-  left:0%;
   text-align: center;
-  height: 580px;
   margin: 0 auto;
-  padding-top: 236px;
   color: black;
   text-align: center;
   width: 100%;
+  
 
 }
+
 .en-concept h1 {
   font-size: 55px;
   color:white;
@@ -635,7 +639,7 @@ nav ul li a {
 }
 /*# sourceMappingURL=app.css.map */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   html {
     width: 100%;
     margin: 0 auto;
@@ -684,14 +688,22 @@ nav ul li a {
     background: white;
   }
 
+
   .main {
     width: 320px;
   }
 
-  .slide{
-  width:307px;
-  height:200px;
-  margin:20px auto;
+.slide{
+  margin-top:50px;
+  width:100%;
+  margin:50px auto;
+  position:relative;
+  display: table;
+}
+.slider{
+  vertical-align: middle;
+  z-index: 50;
+  top: 50%;
 }
 
   .en-concept {
@@ -701,6 +713,8 @@ nav ul li a {
     color: black;
     top:15%;
     text-align: center;
+    z-index: 100;
+    transform: translate(-50%,-50%);
   }
 
   .en-concept h1 {
