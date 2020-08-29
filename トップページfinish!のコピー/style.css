@@ -257,30 +257,34 @@ body {
   position:relative;
   display: flex;
   justify-content: center;
-
 }
+/*テキストカラーを黄色に指定*/
 
 .en-concept {
   z-index: 100;
   position:absolute;
   text-align: center;
   margin: 0 auto;
-  color: black;
   text-align: center;
   width: 100%;
-  
-
+  top: 50%;
+  transform: translateY(-50%);
+}
+h1.background--light {
+     color: black;
+}
+ 
+h1.background--dark {
+     color: white;
 }
 
 .en-concept h1 {
   font-size: 55px;
-  color:white;
   margin: 0 auto;
 }
 
 .en-concept p {
   font-size: 42px;
-  color:white;
   margin: 0 auto;
 }
 
@@ -368,7 +372,7 @@ body {
   display: inline-block;
   width: 100%;
   height: calc(100vw/4);
-  background-image: url(img/service1.png);
+  background-image: url(img/サービス概要サムネ１オフショアラボ開発.jpg);
   background-size: cover;
 }
 
@@ -384,7 +388,8 @@ body {
   display: inline-block;
   width: 100%;
   height: calc(100vw/4);
-  background-image: url(img/service1.png);
+  background-image: url(img/サービス概要サムネ２ビジネスクリエイティブスタジオ.jpg);
+  background-size: cover;
 }
 
 .service-text2 {

@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
     <script type="text/javascript">
             $(document).ready(function(){
                 $('.slider').bxSlider({
@@ -37,6 +36,13 @@
                 });
             });
     </script>
+<script src="background-check.min.js"></script>
+<script type="text/javascript">
+     BackgroundCheck.init({
+          /*ここに要素を指定*/
+          targets: 'h1'
+     });
+</script>
   </head>
   <body>
     <div class="header fixed-top">
@@ -63,13 +69,13 @@
           <p>Your vision makes new world.</p>
         </div>
     <div class="slider">
-      <img src="img/image000.jpg" width="500px" >
-      <img src="img/image001.jpg" width="500px" >
-      <img src="img/image002.jpg" width="500px" >
-      <img src="img/image003.jpg" width="500px" >
-      <img src="img/image004.jpg" width="500px" >
-      <img src="img/image005.jpg" width="500px" >
-      <img src="img/image006.jpg" width="500px" >
+      <img class="target" src="img/トップページスライド１.jpg">
+      <img class="target" src="img/image001.jpg" >
+      <img class="target" src="img/image002.jpg">
+      <img class="target" src="img/image003.jpg">
+      <img class="target" src="img/image004.jpg">
+      <img class="target" src="img/image005.jpg">
+      <img class="target" src="img/image006.jpg">
     </div>
     </div>
 
