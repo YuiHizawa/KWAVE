@@ -156,6 +156,7 @@ html {
 .header {
   font-family: Meiryo;
   z-index: 2;
+  opacity: 0.5;
 }
 
 .main {
