@@ -1,11 +1,12 @@
 body{
-    margin: 0 auto;
-    width: 1150px;
+    margin:0 auto;
+    width:1024px;
 }
+
 .btn-header{
     float: left;
-    margin-left:928px;
-    margin-right:16px;
+    margin-left:508px;
+    
     margin-top:20px;
 }
 
@@ -27,6 +28,7 @@ body{
     position:fixed;
     z-index: 100;
     outline: none;
+    
 }
 
 .contact-header a {
@@ -42,7 +44,7 @@ body{
 .logo-header{
     float: left;
     margin-top:0px;
-    margin-left:1374px;
+    margin-left:955px;
 }
 
 .logo-img {
@@ -57,17 +59,56 @@ body{
     margin: 7px auto;
 }
 
+.img-header01{
+    position: relative;
+}
+
 .img-header{
  margin-top:73px;  
- margin-left:119px;
  margin-right:18px;
- width:1113px;
- height:430px;
+ width:754px;
+ height:419px;
+
+}
+
+.img-nepal{
+    width:327px;
+    height:136px;
+    z-index: 50;
+    top:310px;
+    left:680px;
+    position: absolute;
+}
+
+.contact-header02{
+    font-family: MS PGothic;
+    display:block;
+    width:336px;
+    height:99px;
+    font-size:30px;
+    color: black;
+    text-align:center;
+    line-height:86px;
+    background:#A3D8EC;
+    border-radius:40px;
+    border: 2.8px solid #1137B7;
+    box-shadow:0 3px 8px #000000;
+    cursor: pointer; 
+    padding:0;
+    outline: none;
+    top:510px;
+    left:680px;
+    position: absolute;
+}
+
+.contact-header02:hover{
+    opacity: .8;
+    transform: scale(1.1, 1.1);
 }
 
 .title01{
     margin-top:181px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .title01 pre{
@@ -106,13 +147,13 @@ body{
     line-height:36px;
     text-align: left;
     text-shadow: 0px 1px 3px #000000;
-    width:1350px;
-    margin-left:-30px;
+    width:924px;
+    margin-left:0px;
 }
 
 .title02{
     margin-top:181px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .title02 pre{
@@ -126,12 +167,15 @@ body{
 
 .img-title02{
  margin-top:50px;
- margin-left:256px;
+}
+
+.img-title02 img{
+    width:1024px;
 }
 
 .title03{
     margin-top:91px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .title03 pre{
@@ -145,12 +189,12 @@ body{
 
 .img-title03{
     margin-top:146px;
-    margin-left:245px;
+    margin-left:45px;
    }
 
 .nepal-title03{
     margin-top:100px;
-    margin-left:245px;
+    margin-left:45px;
 } 
 
 .nepal-title03 p {
@@ -170,7 +214,7 @@ body{
 
 .img02-title03{
     margin-top:100px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .nepal-description{
@@ -179,7 +223,7 @@ body{
 }
 
 .nepal-description02{
-    margin-left:100px;
+    margin-left:0px;
 }
 
 
@@ -193,13 +237,13 @@ body{
 }
 
 .bracket-nepal{
-    margin-left:500px;
+    margin-left:400px;
 }
 
 .photo-title03{
     float: left;
     margin-top:260px;
-    margin-left:60px;
+    margin-left:0px;
     position: relative;
 }
 .photo-title03 p{
@@ -212,7 +256,7 @@ body{
 .title04{
     clear:left;
     padding-top:216px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .title04 pre{
@@ -226,12 +270,12 @@ body{
 
 .img-title04{
     margin-top:50px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .title05{
     margin-top:80px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .title05 pre{
@@ -245,22 +289,24 @@ body{
 
 .img-title05{
     margin-top:50px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .language-title05{
     font-size:35px;
     margin-top:72px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .img-language{
-    margin-left:370px;
+    margin-left:156px;
+    margin-right:156px;
+   
 }
 
 .title06{
     margin-top:80px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .title06 pre{
@@ -274,12 +320,12 @@ body{
 
 .img-title06{
     margin-top:50px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .title07{
     margin-top:80px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .title07 pre{
@@ -293,12 +339,17 @@ body{
 
 .img-title07 {
     margin-top:60px;
-    margin-left:300px;
+    margin-left:100px;
+}
+
+.img2-title07 {
+    margin-top:60px;
+    margin-left:100px;
 }
 
 .title08{
     margin-top:80px;
-    margin-left:245px;
+    margin-left:45px;
 }
 
 .title08 pre{
@@ -311,15 +362,17 @@ body{
 }
 
 .contact-title08{
-    margin-left:245px;
-    margin-right:156px;
+    margin-left:45px;
+    /* margin-right:56px; */
     margin-top:50px;
-    width:1100px;
+    width:968px;
+    /* width:100%; */
 }
 
 .contact-title08 p{
     margin-top:20px;
     margin-bottom: 0;
+    width:268px;
 }
 
 .contact-title08 span{
@@ -340,8 +393,11 @@ body{
 .company-name{
     float:left;
     width:50%;
-    
 }
+.company-name p{
+    width:100px;
+}
+
 
 .company-name input{
     width:350px;
@@ -371,6 +427,7 @@ body{
     height:25px;
 }
 
+
 .phonenumber input{
     width:900px;
     height:25px;
@@ -384,7 +441,7 @@ body{
 footer{
     margin-top:130px;
     padding:0 auto;
-    width:1400px;
+   
 }
 
 footer img{
@@ -440,10 +497,31 @@ footer img{
     margin-top:18px;  
     margin-left:11px;
     margin-right:11px;
-    width:298px;
-    height:115px;
+    width:192px;
+    height:107px;
    }
+
+ .img-nepal{
+    width:109px;
+    height:45px;
+    position: absolute;
+    top:85.5px;
+    left:200px;
+ }  
    
+
+ .contact-header02{
+    width:117px;
+    height:25px;
+    font-size:7px;
+    line-height:7px;
+    position: absolute;
+    top:135.5px;
+    left:200px;
+    border: 1.8px solid #1137B7;
+    box-shadow:0 2px 4px #000000;
+ }
+
    .title01{
        margin-top:48px;
        margin-left:29px;
@@ -757,6 +835,13 @@ footer img{
     height:331px;
 }
 
+.img2-title07 {
+    margin-top:0;
+    margin-left:44px;
+    width:229px;
+    height:231px;
+}
+
 .title08{
     margin-top:30px;
     margin-left:30px;
@@ -856,3 +941,4 @@ footer img{
     display: block;
     margin:0 auto;
 }
+
