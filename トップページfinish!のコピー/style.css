@@ -257,14 +257,25 @@ body {
   color: #707070;
 }
 .slide{
-  margin-top:50px;
   width:100%;
-  margin:50px auto;
+  margin:0 auto 50px auto;
   position:relative;
   display: flex;
   justify-content: center;
 }
 /*テキストカラーを黄色に指定*/
+.bx-wrapper {
+  margin: 0 !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background: none !important;
+}
+.bxslider img{
+  width: 100% !important;
+  height: auto !important;
+}
 
 .en-concept {
   z-index: 100;
