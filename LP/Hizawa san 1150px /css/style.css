@@ -403,6 +403,11 @@ body{
     width:350px;
     height:25px;
 }
+.about select{
+    height:35px;
+    width:900px;
+    margin-bottom:25px;
+}
 
 .position{
     display:block;
@@ -410,13 +415,14 @@ body{
 }
 
 .position p{
-    padding-top:30px;
+    padding-top:50px;
 }
 
 .position input{
-    width:350px;
+    width:900px;
     height:25px;
 }
+
 
 .mail-address {
     padding-top:20px;
