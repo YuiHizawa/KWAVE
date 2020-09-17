@@ -18,6 +18,9 @@ a {
   font-family: Meiryo;
   z-index: 2;
 }
+.non-btn{
+  opacity: 0;
+}
 
 .main{
   z-index: 1;

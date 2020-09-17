@@ -253,6 +253,15 @@ body {
   width: 100%;
   padding-top: 121px;
 }
+.h{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding-top: calc(.5rem + 1px);
+    padding-bottom: calc(.5rem + 1px);
+    color:red;
+  }
+
+    /* margin-bottom: 1rem;
 
 .main {
   width: 100%;
@@ -425,9 +434,10 @@ h1.background--dark {
 }
 
 .development-case {
-  width: 24%;
+  width: 30%;
   height: 585px;
   border: solid 1px #707070;
+  margin-bottom:30px;
 }
 
 .development-case-image {
