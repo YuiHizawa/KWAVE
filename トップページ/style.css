@@ -413,6 +413,10 @@ h1.background--dark {
   font-size: 23px;
 }
 
+.slide{
+  position: relative;
+}
+
 .service-image2 {
   display: inline-block;
   width: 100%;
