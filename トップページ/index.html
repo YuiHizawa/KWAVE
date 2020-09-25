@@ -85,7 +85,7 @@
     </div>
     </div>
 <!-- Button trigger modal -->
-<button type="button" class="btn-lg btn-primary rounded-pill contact" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn-primary rounded-pill contact" data-toggle="modal" data-target="#exampleModal" style="z-index:100;"">
   資料請求はこちら
 </button>
 
@@ -94,30 +94,30 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header" style="margin-bottom:20px;">
         <h3 class="modal-title" id="exampleModalLabel">資料請求</h3>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form>
+      <form style="padding-left:40px;">
         <div class="container">
         <div class="form-group row">
-            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-lg name">　担当者名　　</label>
+            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-md name">　担当者名　　　　</label>
             <div class="col-xs-0.8 blue-btn"><p class="h">必須</p></div>
             <div class="col-md-8">
               <input type="name" class="form-control col-form-label-lg" id="inputName3"required>
             </div>
         </div>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-lg name">　会社名　　　</label>
+            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-md name">　会社名　　　　　</label>
             <div class="col-xs-0.8 blue-btn"><p class="h">必須</p></div>
             <div class="col-md-8">
               <input type="name" class="form-control col-form-label-lg" id="inputName3"required>
             </div>
         </div>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-xs-1 col-form-label col-form-label-lg name">　役職　　　　</label>
+            <label for="inputEmail3" class="col-xs-1 col-form-label col-form-label-md name">　役職　　　　　　</label>
             <div class="col-lg-0.8 blue-btn"><p class="h">必須</p></div>
             <div class="col-md-3">
               <select class="form-control form-control-lg">
@@ -129,7 +129,24 @@
                 <option>その他</option>
               </select>
             </div>
-            <label for="inputEmail3" class="col-xs-1 col-form-label col-form-label-lg name">　業界　　</label>
+            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-md name">　従業員数　</label>
+            <div class="col-xs-0.8 blue-btn"><p class="h">必須</p></div>
+            <div class="col-md-3">
+              <select class="form-control form-control-lg">
+                <option>0~5人</option>
+                <option>5~9人</option>
+                <option>10~19人</option>
+                <option>20~29人</option>
+                <option>30~49人</option>
+                <option>50~100人</option>
+                <option>100人~199人</option>
+                <option>200人~499人</option>
+                <option>500人~1000人</option>
+              </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-xs-1 col-form-label col-form-label-md name">　業界　　　　　　</label>
             <div class="col-xs-0.8 blue-btn"><p class="h">必須</p></div>
             <div class="col-md-3">
               <select class="form-control form-control-lg">
@@ -155,24 +172,7 @@
                 <option>その他</option>
               </select>
             </div>
-        </div>
-        <div class="form-group row">
-            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-lg name">　従業員数　　</label>
-            <div class="col-xs-0.8 blue-btn"><p class="h">必須</p></div>
-            <div class="col-md-3">
-              <select class="form-control form-control-lg">
-                <option>0~5人</option>
-                <option>5~9人</option>
-                <option>10~19人</option>
-                <option>20~29人</option>
-                <option>30~49人</option>
-                <option>50~100人</option>
-                <option>100人~199人</option>
-                <option>200人~499人</option>
-                <option>500人~1000人</option>
-              </select>
-            </div>
-            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-lg name">　都道府県　</label>
+            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-md name">　都道府県　</label>
             <div class="col-xs-0.8 blue-btn"><p class="h">必須</p></div>
             <div class="col-md-3">
 <select name="pref"  class="form-control form-control-lg">
@@ -228,21 +228,21 @@
             </div>
         </div>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-lg name">　お電話番号　　　</label>
+            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-md name">　お電話番号　　　</label>
             <div class="col-xs-0.8 blue-btn"><p class="h">必須</p></div>
             <div class="col-md-8">
               <input type="phone-number" class="form-control col-form-label-lg" id="inputphoneNumber3"required>
             </div>
         </div>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-lg name">　E-mail　　　　　</label>
+            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-md name">　E-mail　　　　　</label>
             <div class="col-xs-0.8 blue-btn"><p class="h">必須</p></div>
             <div class="col-md-8">
               <input type="email" class="form-control col-form-label-lg" id="inputEmail3"required>
             </div>
         </div>
         <div class="form-group row">
-            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-lg name">　E-mail（確認用）</label>
+            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-md name">　E-mail（確認用）</label>
             <div class="col-xs-0.8 blue-btn"><p class="h">必須</p></div>
             <div class="col-md-8">
               <input type="email" class="form-control col-form-label-lg" id="inputEmail3"required>
@@ -280,7 +280,7 @@
           テキストテキストテキストテキストテキストテキスト
         </p>
         <div class="flex">
-          <div class="service1 service">
+          <div class="service1 service clearfix">
             <a href="" title="">
               <div class="service-image1 service-image"></div>
             </a>
