@@ -6,14 +6,20 @@ body{
 .btn-header{
     float: left;
     margin-left:508px;
-    
     margin-top:20px;
+}
+.btn{
+    background-color:#A3D8EC;
+    font-size: 18px;
+    float:right;
+    margin-right: 60px;
 }
 
 .contact-header{
     font-family: MS PGothic;
     display:block;
-    width:430px;
+    width:500px;
+    left: calc(50% - 200px / 2);
     height:86px;
     font-size:30px;
     color: black;
@@ -28,7 +34,6 @@ body{
     position:fixed;
     z-index: 100;
     outline: none;
-    
 }
 
 .contact-header a {
@@ -83,7 +88,7 @@ body{
 .contact-header02{
     font-family: MS PGothic;
     display:block;
-    width:336px;
+    width:500px;
     height:99px;
     font-size:30px;
     color: black;
@@ -97,7 +102,7 @@ body{
     padding:0;
     outline: none;
     top:510px;
-    left:680px;
+    left:550px;
     position: absolute;
 }
 

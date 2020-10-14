@@ -219,12 +219,12 @@ footer {
 
 .blue-btn{
   margin-top:11px;
-  background-color:#0098C9;
   border-radius: 30px;
-  color:white;
-  font-size:16px;
-  height:25px;
+  color:red;
+  font-size:20px;
+  height:30px;
   width:55px;
+  margin-bottom:20px;
 
 }
 
@@ -247,12 +247,12 @@ footer {
 }
 
 .button {
-  width:335px;
+  width:200px;
   display       : inline-block;
   font-size     : 17pt;        /* 文字サイズ */
   text-align    : center;      /* 文字位置   */
   cursor        : pointer;     /* カーソル   */
-  padding       : 12px 12px;   /* 余白       */
+  padding       : 5px 5px;   /* 余白       */
   background    : #0098c9;     /* 背景色     */
   color         : #ffffff;     /* 文字色     */
   line-height   : 1em;         /* 1行の高さ  */
@@ -386,15 +386,14 @@ body{
 
 
 .blue-btn{
-  background-color:#0098C9;
-  border-radius: 30px;
-  color:white;
+  color:red;
   font-size:10px;
   height:18px;
   width:48px;
   margin:12px;
 }
 .blue-btn p{
+  color:red;
   padding:2px 12px;
   margin:0;
 }

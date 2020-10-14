@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KWAVE</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
   <header>
     <div class="btn-header">
      <a href="#">
-         <button class="contact-header">お問い合わせはこちらから</button>
+         <button class="contact-header">開発に関するご相談・お見積もり</button>
 
-     </a>   
+     </a>
     </div>
 
     <div class="logo-header">
@@ -24,7 +25,7 @@
         <div class="img-header01">
             <img src="img/Image 79.png" class="img-header">
             <img src="img/nepal.png" class="img-nepal">
-            <button class="contact-header02">お問い合わせはこちら</button>
+            <button class="contact-header02">開発に関するご相談・お見積もり</button>
         
         </div>
  <div class="title01">
@@ -114,33 +115,27 @@
 <img class="img2-title07" src="img/Image 58.png">
 
 <div class="title08">
-    <pre> 　　お問い合わせ</pre>
+    <pre> 　　開発に関するご相談</pre>
 </div>
 
 <div class="contact-title08">
     <div class="about">
-        <p>お問い合わせ内容<span>※</span></p>
-        <select name="job">
-            <option value="">選択してください</option>
-            <option value="公務員">お見積もりに関して</option>
-            <option value="経営者・役員">サービス・会社に関して</option>
-            <option value="会社員">当社との商談を希望する</option>
-            <option value="自営業">その他</option>
-        </select>
+      <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-lg name">お問い合わせ種別<span>※</span>　　　　　　</label><br>
+      <div class="col-md-8 checkbox">
+      <input class="checkbox" type="checkbox" name="q1" value="その1"> DX支援・ITコンサルティング<br>
+      <input class="checkbox" type="checkbox" name="q1" value="その2"> 新規事業の企画・立ち上げ支援<br>
+      <input class="checkbox" type="checkbox" name="q1" value="その3"> 基幹システム開発<br>
+      <input class="checkbox" type="checkbox" name="q1" value="その3"> WEBアプリ・ネイティブアプリ開発<br>
+      <input class="checkbox" type="checkbox" name="q1" value="その3"> 上記以外のサービス・システム開発
     </div>
     <div class="name">
         <p>担当者名<span>※</span></p>
         <input type=“text”></input>
     </div>
     <div class="company-name">
-        <p>御社名<span>　</span></p>
+        <p>御社名<span>※</span></p>
         <input type=“text”></input>
-    </div>
-
-    <div class="position">
-        <p>ご住所<span>　</span></p>
-        <input type=“text”></input>
-    </div>
+    </div><br><br><br>
     <div class="mail-address">
         <p>メールアドレス<span>※</span></p>
         <input type=“text”></input>
@@ -153,12 +148,80 @@
         <p>電話番号<span>※</span></p>
         <input type=“text”></input>
 　　  </div>
-    <div class="message-form">
-        <p>お問い合わせ内容<span>※</span></p>
-        <textarea></textarea>
-    </div>
-
+    　<div class="phonenumber">
+        <p>会社のURL<span>　</span></p>
+        <input type=“text”></input>
+　　  </div><br><br>
+    <div class="about">
+      <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-lg name">所在地<span>※</span>　　　　　　</label><br>
+      <div class="col-md-8 checkbox">
+<select name="pref"  class="form-control form-control-lg">
+<option value="">選択してください</option>
+<option value="北海道">北海道</option>
+<option value="青森県">青森県</option>
+<option value="岩手県">岩手県</option>
+<option value="宮城県">宮城県</option>
+<option value="秋田県">秋田県</option>
+<option value="山形県">山形県</option>
+<option value="福島県">福島県</option>
+<option value="茨城県">茨城県</option>
+<option value="栃木県">栃木県</option>
+<option value="群馬県">群馬県</option>
+<option value="埼玉県">埼玉県</option>
+<option value="千葉県">千葉県</option>
+<option value="東京都" selected>東京都</option>
+<option value="神奈川県">神奈川県</option>
+<option value="新潟県">新潟県</option>
+<option value="富山県">富山県</option>
+<option value="石川県">石川県</option>
+<option value="福井県">福井県</option>
+<option value="山梨県">山梨県</option>
+<option value="長野県">長野県</option>
+<option value="岐阜県">岐阜県</option>
+<option value="静岡県">静岡県</option>
+<option value="愛知県">愛知県</option>
+<option value="三重県">三重県</option>
+<option value="滋賀県">滋賀県</option>
+<option value="京都府">京都府</option>
+<option value="大阪府">大阪府</option>
+<option value="兵庫県">兵庫県</option>
+<option value="奈良県">奈良県</option>
+<option value="和歌山県">和歌山県</option>
+<option value="鳥取県">鳥取県</option>
+<option value="島根県">島根県</option>
+<option value="岡山県">岡山県</option>
+<option value="広島県">広島県</option>
+<option value="山口県">山口県</option>
+<option value="徳島県">徳島県</option>
+<option value="香川県">香川県</option>
+<option value="愛媛県">愛媛県</option>
+<option value="高知県">高知県</option>
+<option value="福岡県">福岡県</option>
+<option value="佐賀県">佐賀県</option>
+<option value="長崎県">長崎県</option>
+<option value="熊本県">熊本県</option>
+<option value="大分県">大分県</option>
+<option value="宮崎県">宮崎県</option>
+<option value="鹿児島県">鹿児島県</option>
+<option value="沖縄県">沖縄県</option>
+</select>
+    </div><br>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-xs-2 col-form-label col-form-label-lg name">DX／新規事業／開発なのご経験<span>※</span>　</label>
+            <div class="col-md-8">
+              <select name="pref"  class="form-control form-control-lg">
+              <option value="">選択してください</option>
+              <option value="">プロジェクト関与経験あり</option>
+              <option value="">プロジェクト推進経験あり</option>
+              <option value="">日常的に推進している</option>
+              </select>
+            </div>
+        </div>
+    <button type="button" class="btn btn-primary">送信</button>
 </div>
+
+
+
 
 <footer>
     <img src="img/Image 30.png">
