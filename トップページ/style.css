@@ -774,7 +774,11 @@ nav ul li a {
 
 }
 .form-group{
-  margin-top:20px;
+  margin:0;
+
+}
+.d{
+  margin-bottom:100px;
 }
 
   .en-concept h1 {
@@ -832,6 +836,10 @@ nav ul li a {
   }
   .services span {
     font-size: 8px;
+  }
+
+  .kome{
+    color:#707070;
   }
 
   .services {
